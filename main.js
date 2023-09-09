@@ -76,7 +76,7 @@ function up_btn(){
 function down_btn(){
     if(count > 17){
         count--;
-        document.getElementById("count").innerText = count;
+        document.getElementById("count").innerHTML = (`${count}&#8451;`);
     }else {
         (count ==17);{
             alert("온도범위초과")
